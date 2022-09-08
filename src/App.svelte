@@ -1,4 +1,5 @@
 <script>
+  import Home from "./home/index.svelte";
   export let name;
 </script>
 
@@ -8,6 +9,7 @@
     Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
     how to build Svelte apps.
   </p>
+  <Home />
 </main>
 
 <style>
